@@ -19,3 +19,5 @@ const upload = multer({ storage: storage });
 router.post('/upload',upload.single('file'),userController.uploadCSVFile);
 
 module.exports = router;
+
+// ***************Note : Please change policy_number info to policy_number in csv file ****************************
